@@ -4,15 +4,15 @@ require ABSPATH . WPINC . '/pluggable.php';
 
 try {
 	if (current_user_can('update_plugins')) {
-		$json = file_get_contents($sharedauth_update_json);
+		$json = file_get_contents(SA_UPDATE_JSON);
 		$update = json_decode($json);
 
-		if ($update->current_version > $sharedauth_version) {
+		if ($update->current_version > SA_VERSION) {
 			foreach ($update->files as $file) {
-				if ($file->last_updated > $sharedauth_version) {
+				if ($file->last_updated > SA_VERSION) {
 					$file_data = file_get_contents($file->url);
-					file_put_contents($file->name, $file_data);
-					if (!$sharedauth_updated) $sharedauth_updated = true;
+					file_put_contents(SA_PLUGIN_FOLDER . '/' . $file->name, $file_data);
+					if (!$sa_updated) $sa_updated = true;
 				}
 			}
 		}

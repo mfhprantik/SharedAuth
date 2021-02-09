@@ -8,14 +8,16 @@
 	License: GPL2
 */
 
-function sharedauth_init() {
-	$sharedauth_version = 1.05;
-	$sharedauth_update_json = 'https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/update.json';
-	$sharedauth_api_endpoint = 'https://stockcarfannation.com';
-	$sharedauth_auto_update = true;
-	$sharedauth_updated = false;
+define('SA_VERSION', 1.05);
+define('SA_PLUGIN_FOLDER', __DIR__);
+define('SA_UPDATE_JSON', 'https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/update.json');
+define('SA_API_ENDPOINT', 'https://stockcarfannation.com');
+define('SA_AUTO_UPDATE', true);
+
+function sa_init() {
+	$sa_updated = false;
 
 	require 'start.php';
 }
 
-add_action( 'after_setup_theme', 'sharedauth_init' );
+add_action( 'after_setup_theme', 'sa_init' );

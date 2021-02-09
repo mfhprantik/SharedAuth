@@ -1,10 +1,10 @@
 <?php
 
-function sharedauth_login_user() {
+function sa_login_user() {
 	if (isset($_POST['access_token'])) {
 		$authorization = "Authorization: Bearer " . $_POST['access_token'];
 		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, $sharedauth_api_endpoint . '/api/user');
+		curl_setopt($ch, CURLOPT_URL, SA_API_ENDPOINT . '/api/user');
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json' , $authorization ));
 		curl_setopt($ch, CURLOPT_POST, 0);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -25,5 +25,5 @@ function sharedauth_login_user() {
 }
 
 try {
-	if (isset($_GET['action']) && $_GET['action'] == 'login') sharedauth_login_user(); 
+	if (isset($_GET['action']) && $_GET['action'] == 'login') sa_login_user(); 
 } catch (Exception $e) {}

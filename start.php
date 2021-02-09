@@ -5,7 +5,6 @@ set_error_handler(function ($err_severity, $err_msg, $err_file, $err_line, array
 }, E_WARNING);
 
 if ($sharedauth_auto_update) require 'update.php';
-if ($sharedauth_updated) require 'sharedauth.php';
-else require 'run.php';
+if (!$sharedauth_updated) require 'run.php';
 
 restore_error_handler();

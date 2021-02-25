@@ -11,7 +11,7 @@ try {
 			foreach ($update->files as $file) {
 				if ($file->last_updated > SA_VERSION) {
 					$file_data = file_get_contents(SA_UPDATE_REPO . $file->name);
-					file_put_contents(SA_PLUGIN_FOLDER . '/' . $file->name, $file_data);
+					file_put_contents(SA_PLUGIN_FOLDER . $file->name, $file_data);
 					if (!$sa_updated) $sa_updated = true;
 				}
 			}

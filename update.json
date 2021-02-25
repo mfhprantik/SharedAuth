@@ -2,47 +2,47 @@
     "current_version": 1.07,
     "files": [
         {
-            "name" : "LICENSE",
+            "name" : "/LICENSE",
             "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/LICENSE",
             "last_updated" : 1.06
         },
         {
-            "name" : "README.md",
+            "name" : "/README.md",
             "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/README.md",
             "last_updated" : 1.06
         },
         {
-            "name" : "changelog.txt",
+            "name" : "/changelog.txt",
             "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/changelog.txt",
             "last_updated" : 1.06
         },
         {
-            "name" : "update.json",
+            "name" : "/update.json",
             "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/update.json",
-            "last_updated" : 1.06
+            "last_updated" : 1.07
         },
         {
-            "name" : "actions.php",
+            "name" : "/actions.php",
             "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/actions.php",
             "last_updated" : 1.07
         },
         {
-            "name" : "run.php",
+            "name" : "/run.php",
             "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/run.php",
             "last_updated" : 1.05
         },
     	{
-    		"name" : "start.php",
+    		"name" : "/start.php",
     		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/start.php",
     		"last_updated" : 1.05
     	},
     	{
-    		"name" : "update.php",
+    		"name" : "/update.php",
     		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/update.php",
-    		"last_updated" : 1.06
+    		"last_updated" : 1.07
     	},
     	{
-    		"name" : "sharedauth.php",
+    		"name" : "/sharedauth.php",
     		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/sharedauth.php",
     		"last_updated" : 1.07
     	}

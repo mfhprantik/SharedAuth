@@ -8,7 +8,7 @@
 	License: GPL2
 */
 
-define('SA_VERSION', 1.06);
+define('SA_VERSION', 1.07);
 define('SA_PLUGIN_FOLDER', __DIR__);
 define('SA_UPDATE_REPO', 'https://raw.githubusercontent.com/mfhprantik/SharedAuth/main');
 define('SA_API_ENDPOINT', 'https://stockcarfannation.com');

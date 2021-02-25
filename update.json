@@ -1,5 +1,5 @@
 {
-    "current_version": 1.06,
+    "current_version": 1.07,
     "files": [
         {
             "name" : "LICENSE",
@@ -24,7 +24,7 @@
         {
             "name" : "actions.php",
             "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/actions.php",
-            "last_updated" : 1.06
+            "last_updated" : 1.07
         },
         {
             "name" : "run.php",
@@ -44,7 +44,7 @@
     	{
     		"name" : "sharedauth.php",
     		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/sharedauth.php",
-    		"last_updated" : 1.06
+    		"last_updated" : 1.07
     	}
     ]
 }

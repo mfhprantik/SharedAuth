@@ -1,2 +1,2 @@
-1.04
-- Added plugin auto-update feature
+1.06
+- Notifications are now sent to server upon new user registrations.

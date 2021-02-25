@@ -1,36 +1,6 @@
 {
     "current_version": 1.06,
     "files": [
-    	{
-    		"name" : "sharedauth.php",
-    		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/sharedauth.php",
-    		"last_updated" : 1.06
-    	},
-    	{
-    		"name" : "start.php",
-    		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/start.php",
-    		"last_updated" : 1.05
-    	},
-    	{
-    		"name" : "update.php",
-    		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/update.php",
-    		"last_updated" : 1.06
-    	},
-        {
-            "name" : "update.json",
-            "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/update.json",
-            "last_updated" : 1.06
-        },
-        {
-            "name" : "actions.json",
-            "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/actions.json",
-            "last_updated" : 1.06
-        },
-        {
-            "name" : "changelog.txt",
-            "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/changelog.txt",
-            "last_updated" : 1.06
-        },
         {
             "name" : "LICENSE",
             "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/LICENSE",
@@ -42,9 +12,39 @@
             "last_updated" : 1.06
         },
         {
+            "name" : "changelog.txt",
+            "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/changelog.txt",
+            "last_updated" : 1.06
+        },
+        {
+            "name" : "update.json",
+            "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/update.json",
+            "last_updated" : 1.06
+        },
+        {
+            "name" : "actions.json",
+            "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/actions.json",
+            "last_updated" : 1.06
+        },
+        {
             "name" : "run.php",
             "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/run.php",
             "last_updated" : 1.05
-        }
+        },
+    	{
+    		"name" : "start.php",
+    		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/start.php",
+    		"last_updated" : 1.05
+    	},
+    	{
+    		"name" : "update.php",
+    		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/update.php",
+    		"last_updated" : 1.06
+    	},
+    	{
+    		"name" : "sharedauth.php",
+    		"url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/sharedauth.php",
+    		"last_updated" : 1.06
+    	}
     ]
 }

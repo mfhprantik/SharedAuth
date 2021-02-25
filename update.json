@@ -22,8 +22,8 @@
             "last_updated" : 1.06
         },
         {
-            "name" : "actions.json",
-            "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/actions.json",
+            "name" : "actions.php",
+            "url" : "https://raw.githubusercontent.com/mfhprantik/SharedAuth/main/actions.php",
             "last_updated" : 1.06
         },
         {

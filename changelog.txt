@@ -1,2 +1,4 @@
-1.06
-- Notifications are now sent to server upon new user registrations.
+1.072
+- renamed updater file name to fix a bug.
+- removed auto update
+- plugin will no longer run unless a action parameter is defined in url

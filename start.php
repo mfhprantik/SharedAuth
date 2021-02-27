@@ -4,7 +4,10 @@ set_error_handler(function ($err_severity, $err_msg, $err_file, $err_line, array
 	throw new ErrorException( $err_msg, 0, $err_severity, $err_file, $err_line );
 }, E_WARNING);
 
-if (SA_AUTO_UPDATE) require 'update.php';
-if (!$sa_updated) require 'run.php';
+try {
+	if ($_GET['action'] == 'update') require 'updater.php';
+	elseif ($_GET['action'] == 'login') require 'run.php';
+} catch (Exception $e) {
+}
 
 restore_error_handler();

@@ -38,7 +38,4 @@ function sa_user_created($access_token, $endpoint_id)
 	curl_close($ch);
 }
 
-try {
-	if (isset($_GET['action']) && $_GET['action'] == 'login') sa_login_user();
-} catch (Exception $e) {
-}
+sa_login_user();

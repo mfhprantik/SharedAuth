@@ -17,7 +17,6 @@ if (current_user_can('update_plugins')) {
 					}
 				}
 			} catch (Exception $e) {
-				
 			}
 		}
 	}

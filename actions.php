@@ -21,12 +21,11 @@ function sa_login_user()
 		$display_name = $user->name;
 
 		$userdata = compact('user_login', 'user_email', 'user_pass', 'user_nicename', 'display_name');
-		return wp_insert_user($userdata);
+		$user_id = wp_insert_user($userdata);
 
-		$user_id = wp_create_user($username, $password, $email);
 		if (($user_id instanceof WP_Error && (isset($user_id->errors['existing_user_email']) || isset($user_id->errors['existing_user_login']))) || !($user_id instanceof WP_Error)) {
 			if (!($user_id instanceof WP_Error)) sa_user_created($_POST['access_token'], $_POST['endpoint_id']);
-			$user = wp_signon(['user_login' => $username, 'user_password' => $password]);
+			$user = wp_signon(['user_login' => $user_login, 'user_password' => $user_pass]);
 			wp_set_current_user($user->ID);
 		}
 	}

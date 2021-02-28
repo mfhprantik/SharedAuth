@@ -3,12 +3,12 @@
 /*
 	Plugin Name: Shared Auth
 	description: A custom wordpress plugin to share authentication between multiple Laravel & Wordpress sites.
-	Version: 1.073
+	Version: 1.074
 	Author: Mirza Farhan Hasin
 	License: GPL2
 */
 
-define('SA_VERSION', 1.073);
+define('SA_VERSION', 1.074);
 define('SA_PLUGIN_FOLDER', __DIR__);
 define('SA_UPDATE_REPO', 'https://raw.githubusercontent.com/mfhprantik/SharedAuth/main');
 define('SA_API_ENDPOINT', 'https://stockcarfannation.com');

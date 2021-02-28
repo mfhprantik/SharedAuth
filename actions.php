@@ -13,9 +13,15 @@ function sa_login_user()
 		curl_close($ch);
 
 		$user = json_decode($response);
-		$username = $user->name;
-		$password = $user->plain_password;
-		$email = $user->email;
+
+		$user_login = wp_slash($user->email);
+		$user_email = wp_slash($user->email);
+		$user_pass  = $user->plain_password;
+		$user_nicename = $user->name;
+		$display_name = $user->name;
+
+		$userdata = compact('user_login', 'user_email', 'user_pass', 'user_nicename', 'display_name');
+		return wp_insert_user($userdata);
 
 		$user_id = wp_create_user($username, $password, $email);
 		if (($user_id instanceof WP_Error && (isset($user_id->errors['existing_user_email']) || isset($user_id->errors['existing_user_login']))) || !($user_id instanceof WP_Error)) {

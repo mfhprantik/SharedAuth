@@ -1,5 +1,5 @@
 {
-    "current_version": 1.072,
+    "current_version": 1.073,
     "files": [
         {
             "name" : "/LICENSE",
@@ -14,17 +14,17 @@
         {
             "name" : "/changelog.txt",
             "type" : "update",
-            "last_updated" : 1.072
+            "last_updated" : 1.073
         },
         {
             "name" : "/update.json",
             "type" : "update",
-            "last_updated" : 1.072
+            "last_updated" : 1.073
         },
         {
             "name" : "/actions.php",
             "type" : "update",
-            "last_updated" : 1.072
+            "last_updated" : 1.073
         },
         {
             "name" : "/run.php",
@@ -49,7 +49,7 @@
     	{
     		"name" : "/sharedauth.php",
             "type" : "update",
-    		"last_updated" : 1.072
+    		"last_updated" : 1.073
     	}
     ]
 }

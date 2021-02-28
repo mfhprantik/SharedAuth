@@ -1,3 +1,6 @@
+1.073
+- made changes to the user info used as login, display_name and nicename
+
 1.072
 - renamed updater file name to fix a bug.
 - removed auto update
